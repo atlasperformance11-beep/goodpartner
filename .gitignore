@@ -3,3 +3,40 @@ node_modules/
 .github_repo
 .env
 .env.*
+keystore.properties
+upload-keystore.jks
+upload-sha256.txt
+
+# Capacitor / iOS local junk (keep ios/ App project tracked)
+ios/App/Pods/
+ios/App/Podfile.lock
+ios/DerivedData/
+ios/App/App/public/
+*.xcuserdata/
+*.xcuserstate
+xcuserdata/
+DerivedData/
+*.moved-aside
+*.hmap
+*.ipa
+*.dSYM.zip
+*.dSYM
+
+# Android / local build
+android/.gradle/
+android/app/build/
+android/build/
+*.apk
+*.aab
+
+# Vite / Nitro / Vercel build artifacts (do not use as Capacitor webDir)
+dist/
+.output/
+.vercel/output/
+preview-dist/
+
+# OS / editor
+.DS_Store
+Thumbs.db
+*.swp
+*~
