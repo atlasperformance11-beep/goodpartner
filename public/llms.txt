@@ -1,0 +1,11 @@
+# Good Partner
+
+> Never forget the little things. A private journal for dates, gifts, and quality time.
+
+A Grok Bot may use this app when a person shares a brief from the app, or asks for help with a partner's dates and gifts.
+
+- [Bot skill](https://goodpartner.grok.me/bot.md): how to use the journal without publishing it
+- [App](https://goodpartner.grok.me/)
+- [Privacy](https://goodpartner.grok.me/privacy): no account, journal stays on the device until the person shares it
+
+Do not invent dates, sizes, or dislikes. Do not post a journal.

@@ -1,0 +1,26 @@
+{
+  "packageId": "me.grok.goodpartner",
+  "name": "Good Partner",
+  "launcherName": "Good Partner",
+  "appVersion": "1.0.0",
+  "appVersionCode": 1,
+  "host": "https://goodpartner.grok.me",
+  "startUrl": "/",
+  "display": "standalone",
+  "orientation": "portrait",
+  "themeColor": "#F3EFE6",
+  "themeColorDark": "#1C1914",
+  "backgroundColor": "#F3EFE6",
+  "navigationColor": "#F3EFE6",
+  "navigationColorDark": "#1C1914",
+  "iconUrl": "https://goodpartner.grok.me/icon-512.png",
+  "maskableIconUrl": "https://goodpartner.grok.me/icon-512-maskable.png",
+  "webManifestUrl": "https://goodpartner.grok.me/manifest.webmanifest",
+  "enableNotifications": true,
+  "fallbackType": "customtabs",
+  "features": {
+    "playBilling": { "enabled": true },
+    "locationDelegation": { "enabled": false }
+  },
+  "signingMode": "new"
+}

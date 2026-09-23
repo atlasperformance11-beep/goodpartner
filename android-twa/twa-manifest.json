@@ -1,0 +1,51 @@
+{
+  "packageId": "me.grok.goodpartner",
+  "host": "goodpartner.grok.me",
+  "name": "Good Partner",
+  "launcherName": "Good Partner",
+  "display": "standalone",
+  "themeColor": "#F3EFE6",
+  "themeColorDark": "#1C1914",
+  "navigationColor": "#F3EFE6",
+  "navigationColorDark": "#1C1914",
+  "navigationDividerColor": "#DDD4C4",
+  "navigationDividerColorDark": "#1C1914",
+  "backgroundColor": "#F3EFE6",
+  "enableNotifications": true,
+  "startUrl": "/",
+  "iconUrl": "http://127.0.0.1:8080/icon-512.png",
+  "maskableIconUrl": "http://127.0.0.1:8080/icon-512-maskable.png",
+  "splashScreenFadeOutDuration": 300,
+  "signingKey": {
+    "path": "./upload-keystore.jks",
+    "alias": "upload"
+  },
+  "appVersionName": "1.0.0",
+  "appVersionCode": 1,
+  "shortcuts": [],
+  "generatorApp": "bubblewrap-cli",
+  "webManifestUrl": "http://127.0.0.1:8080/manifest.webmanifest",
+  "fallbackType": "customtabs",
+  "features": {
+    "playBilling": {
+      "enabled": true
+    }
+  },
+  "alphaDependencies": {
+    "enabled": true
+  },
+  "enableSiteSettingsShortcut": true,
+  "orientation": "portrait",
+  "fingerprints": [
+    {
+      "name": "upload",
+      "value": "3F:0F:27:AC:24:A6:63:EF:F9:B8:F7:08:C7:60:E0:C7:26:1A:5A:0C:B7:24:9D:57:D1:14:C0:91:6D:0B:94:D0"
+    }
+  ],
+  "additionalTrustedOrigins": [],
+  "isChromeOSOnly": false,
+  "isMetaQuest": false,
+  "fullScopeUrl": "https://goodpartner.grok.me/",
+  "minSdkVersion": 23,
+  "displayOverride": []
+}

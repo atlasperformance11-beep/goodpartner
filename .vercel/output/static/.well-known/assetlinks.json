@@ -1,0 +1,12 @@
+[
+  {
+    "relation": ["delegate_permission/common.handle_all_urls"],
+    "target": {
+      "namespace": "android_app",
+      "package_name": "me.grok.goodpartner",
+      "sha256_cert_fingerprints": [
+        "3F:0F:27:AC:24:A6:63:EF:F9:B8:F7:08:C7:60:E0:C7:26:1A:5A:0C:B7:24:9D:57:D1:14:C0:91:6D:0B:94:D0"
+      ]
+    }
+  }
+]

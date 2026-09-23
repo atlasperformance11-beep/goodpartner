@@ -1,0 +1,38 @@
+{
+  "url": "http://127.0.0.1:8081/",
+  "viewports": {
+    "desktop": {
+      "width": 1280,
+      "height": 800,
+      "status": 200,
+      "title": "Good Partner",
+      "hasCanvas": false,
+      "bodyTextLen": 591,
+      "bodyTextHash": "a45b6cb9a78f62d187e5b2c94ad7e527b09eedbeecae7f92f25a89b5b22c5bfc",
+      "bodyTextPrefix": "GOOD PARTNER Never forget the little things. A quiet journal for",
+      "horizontalOverflow": false,
+      "consoleErrors": [],
+      "pageErrors": [],
+      "screenshot": "/workspace/screenshots/app-builder-built.png"
+    },
+    "mobile": {
+      "width": 390,
+      "height": 844,
+      "status": 200,
+      "title": "Good Partner",
+      "hasCanvas": false,
+      "bodyTextLen": 591,
+      "bodyTextHash": "a45b6cb9a78f62d187e5b2c94ad7e527b09eedbeecae7f92f25a89b5b22c5bfc",
+      "bodyTextPrefix": "GOOD PARTNER Never forget the little things. A quiet journal for",
+      "horizontalOverflow": false,
+      "consoleErrors": [],
+      "pageErrors": [],
+      "screenshot": "/workspace/screenshots/app-builder-built-mobile.png"
+    }
+  },
+  "brandWarnings": [],
+  "authWarnings": [],
+  "verdictFile": "/workspace/screenshots/app-builder-built.json",
+  "divergesFromBaseline": false,
+  "baselineReasons": []
+}

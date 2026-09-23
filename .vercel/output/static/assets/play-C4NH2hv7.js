@@ -1,0 +1,55 @@
+import{i as e,n as t,t as n}from"./jsx-runtime-Cltr0gcK.js";import{t as r}from"./check-GK_AsXTP.js";import{Ft as i,Ht as a,Ut as o,c as s,d as c,f as l,g as u,h as d,l as f,m as p,p as m,u as h}from"./index-CKn_rDWW.js";import{t as g}from"./legal-page-DpC6wdfH.js";var _=a(`copy`,[[`rect`,{width:`14`,height:`14`,x:`8`,y:`8`,rx:`2`,ry:`2`,key:`17jyea`}],[`path`,{d:`M4 16c-1.1 0-2-.9-2-2V4c0-1.1.9-2 2-2h10c1.1 0 2 .9 2 2`,key:`zix9uf`}]]),v=e(t(),1),y=n();function b({label:e,value:t,className:n}){let[a,o]=(0,v.useState)(!1);async function s(){try{await navigator.clipboard.writeText(t),o(!0),window.setTimeout(()=>o(!1),1600)}catch{}}return(0,y.jsxs)(`div`,{className:i(`rounded-xl bg-card p-4 shadow-[var(--shadow-card)]`,n),children:[(0,y.jsxs)(`div`,{className:`mb-2 flex items-center justify-between gap-3`,children:[(0,y.jsx)(`p`,{className:`text-xs font-medium uppercase tracking-[0.14em] text-muted-foreground`,children:e}),(0,y.jsxs)(`button`,{type:`button`,onClick:()=>void s(),className:`inline-flex min-h-11 items-center gap-1.5 text-sm font-medium text-primary`,children:[a?(0,y.jsx)(r,{className:`size-4`}):(0,y.jsx)(_,{className:`size-4`}),a?`Copied`:`Copy`]})]}),(0,y.jsx)(`pre`,{className:`whitespace-pre-wrap break-words font-sans text-sm leading-relaxed text-foreground/90`,children:t})]})}var x=`${h}/privacy`,S=`${h}/support`,C=`${h}/manifest.webmanifest`,w=`${p}
+
+A quiet journal for the dates that sneak up, the gifts that should feel considered, and the little rituals that keep a partnership kind. Pay once (\$19 lifetime). There is no account, no ads, and no cloud copy — the journal lives on this phone.
+
+Remember birthdays and anniversaries with lead times you set. Keep gift and date ideas tied to the occasion. Log gestures and undistracted hours. Spark a suggestion when you need a nudge — only when you ask. Reminders check when you open the app; lock-screen banners need your allow.
+
+${f} ${u}. Category: Lifestyle. Content rating: ${c}.`,T=`Lifetime unlock`,E=`Unlock ${f} forever on this Google account. One payment, no subscription. The journal still lives only on this phone.`,D=`Does the app collect or share user data? Optional only — see below.
+Location, contacts, photos, microphone, files: not collected.
+Personal info (name, email, phone): not collected. There is no account.
+Financial: Play Store purchases go through Google Play Billing. Website / Chrome purchases go through Stripe. We never see or store card numbers.
+App activity: the journal stays in on-device storage. Spark, if tapped, sends first name, likes, love languages, upcoming dates, and recent gestures to xAI to write suggestions. It is not sent on launch.
+Device IDs / advertising ID: not collected. No ads, no analytics SDK.
+Data is encrypted in transit (HTTPS). Journal data is not encrypted at rest beyond the phone.
+Data is not sold. Users can export or delete the journal on the Us tab.
+Not designed for children. Target age 18+ even though the content is ${c}.
+Privacy policy: ${x}`,O=`IARC questionnaire
+Violence: none
+Sexual content: none
+Language: none
+Controlled substances: none
+User interaction / UGC: none (private journal, not shared)
+Share location: no
+Digital purchases: yes — optional one-time \$19 unlock
+Age: ${c} / 18+ target audience (Older Users)
+Ads: no`,k=`Play Console → Monetize → In-app products → Create product
+Product ID: ${l}
+Product type: Managed product (one-time, not a subscription)
+Name: ${T}
+Description: ${E}
+Default price: \$19 USD
+Status: Active`,A=`Open https://www.pwabuilder.com and package ${h}
+Use the Google Play tab with these exact values:
+
+Package ID: ${s}
+App name: ${f}
+Short name: ${f}
+Host: ${h}
+Start URL: /
+App version: ${u}
+App version code: 1
+Theme color: #F3EFE6
+Background color: #F3EFE6
+Icon URL: ${h}/icon-512.png
+Maskable icon URL: ${h}/icon-512-maskable.png
+Manifest URL: ${C}
+Google Play billing: On
+Notification delegation: On
+Location delegation: Off
+Signing key: New (first upload) or Mine (later versions)
+Fallback: Custom Tabs
+Orientation: Portrait`,j=`Digital Asset Links already lists package ${s} and the upload-key SHA-256:
+
+${d}
+
+After the first App Bundle upload, open Play Console → Test and release → App integrity → App signing. Copy the App signing key certificate SHA-256 and send it back here. It becomes the second fingerprint so the Play-distributed app opens full screen.`;function M(){return(0,y.jsxs)(g,{title:`Google Play listing`,updated:`September 21, 2026`,children:[(0,y.jsxs)(`p`,{children:[f,` `,u,` is wrapped as a Trusted Web Activity with Play Billing on, Digital Asset Links published, and listing copy ready to paste. Google still sells the developer seat only to you.`]}),(0,y.jsx)(`h2`,{className:`font-display text-lg tracking-tight text-foreground`,children:`What’s already done`}),(0,y.jsxs)(`ul`,{className:`list-disc space-y-1 pl-5`,children:[(0,y.jsxs)(`li`,{children:[`Trusted Web Activity for package `,s,`, target Android 16, Play Billing and notification delegation on. Upload that App Bundle in Play Console after you open the developer account.`]}),(0,y.jsxs)(`li`,{children:[`Digital Asset Links lists the upload-key SHA-256 (`,d.slice(0,11),`…) so a locally signed build can open full screen.`]}),(0,y.jsxs)(`li`,{children:[`Inside the Play app, Unlock charges `,`$19`,` through Google Play Billing (product`,` `,l,`). Chrome and iPhone still use Stripe.`]})]}),(0,y.jsx)(`h2`,{className:`font-display text-lg tracking-tight text-foreground`,children:`What Play still needs from you`}),(0,y.jsxs)(`ol`,{className:`list-decimal space-y-2 pl-5`,children:[(0,y.jsx)(`li`,{children:`Open a Google Play developer account — $25 once, under your Google identity. Google will not sell that seat to anyone else.`}),(0,y.jsxs)(`li`,{children:[`Create the app with package `,s,`. Publish this site first so Digital Asset Links and the maskable icon are live, then upload the signed App Bundle`,` `,(0,y.jsx)(`a`,{href:`/store/good-partner.aab`,className:`font-medium text-primary underline-offset-4 hover:underline`,download:`good-partner-1.0.0.aab`,children:`good-partner.aab`}),`. PWABuilder settings below are the fallback if you wrap again later.`]}),(0,y.jsxs)(`li`,{children:[`After the first upload, open App integrity, copy the `,(0,y.jsx)(`span`,{className:`font-medium`,children:`app signing`}),` SHA-256, and send it back here. Play re-signs the store build; that fingerprint has to sit next to the upload key or Chrome shows an address bar.`]}),(0,y.jsxs)(`li`,{children:[`Monetize → In-app products → create `,l,` as a managed one-time product at`,` `,`$19`,` and activate it. Play rejects a paid unlock that goes around their billing inside the listing.`]})]}),(0,y.jsx)(`h2`,{className:`font-display text-lg tracking-tight text-foreground`,children:`Store listing`}),(0,y.jsx)(b,{label:`App name`,value:f}),(0,y.jsx)(b,{label:`Short description`,value:m}),(0,y.jsx)(b,{label:`Full description`,value:w}),(0,y.jsxs)(`p`,{children:[(0,y.jsx)(`span`,{className:`font-medium`,children:`Category.`}),` Lifestyle · Productivity`,(0,y.jsx)(`br`,{}),(0,y.jsx)(`span`,{className:`font-medium`,children:`Content rating.`}),` `,c,(0,y.jsx)(`br`,{}),(0,y.jsx)(`span`,{className:`font-medium`,children:`Package name.`}),` `,s,(0,y.jsx)(`br`,{}),(0,y.jsx)(`span`,{className:`font-medium`,children:`Privacy.`}),` `,(0,y.jsx)(`a`,{href:x,className:`font-medium text-primary underline-offset-4 hover:underline`,children:x}),(0,y.jsx)(`br`,{}),(0,y.jsx)(`span`,{className:`font-medium`,children:`Support.`}),` `,(0,y.jsx)(`a`,{href:S,className:`font-medium text-primary underline-offset-4 hover:underline`,children:S})]}),(0,y.jsx)(b,{label:`IARC / content rating`,value:O}),(0,y.jsx)(`h2`,{className:`font-display text-lg tracking-tight text-foreground`,children:`In-app product`}),(0,y.jsxs)(`p`,{children:[`Name `,T,`. `,E]}),(0,y.jsx)(b,{label:`Play Console product`,value:k}),(0,y.jsx)(`h2`,{className:`font-display text-lg tracking-tight text-foreground`,children:`Data safety`}),(0,y.jsx)(b,{label:`Data safety answers`,value:D}),(0,y.jsx)(`h2`,{className:`font-display text-lg tracking-tight text-foreground`,children:`Digital Asset Links`}),(0,y.jsx)(b,{label:`Upload-key fingerprint`,value:j}),(0,y.jsxs)(`p`,{children:[`Live file:`,` `,(0,y.jsx)(`a`,{href:`/.well-known/assetlinks.json`,className:`font-medium text-primary underline-offset-4 hover:underline`,children:`/.well-known/assetlinks.json`})]}),(0,y.jsx)(`h2`,{className:`font-display text-lg tracking-tight text-foreground`,children:`PWABuilder settings`}),(0,y.jsx)(`p`,{children:`If you wrap on the web instead of uploading the App Bundle from this project, paste these values. Turn Google Play billing on. After you publish this site, the maskable icon and manifest URLs will resolve.`}),(0,y.jsx)(b,{label:`PWABuilder`,value:A}),(0,y.jsx)(`h2`,{className:`font-display text-lg tracking-tight text-foreground`,children:`Assets to upload`}),(0,y.jsxs)(`ul`,{className:`list-disc space-y-1 pl-5`,children:[(0,y.jsxs)(`li`,{children:[(0,y.jsx)(`a`,{href:`/store/good-partner.aab`,className:`font-medium text-primary underline-offset-4 hover:underline`,download:`good-partner-1.0.0.aab`,children:`Android App Bundle`}),` `,`— signed, Play Billing on, upload this in Play Console`]}),(0,y.jsxs)(`li`,{children:[(0,y.jsx)(`a`,{href:`/store/feature-graphic.png`,className:`font-medium text-primary underline-offset-4 hover:underline`,children:`Feature graphic`}),` `,`— 1024×500`]}),(0,y.jsxs)(`li`,{children:[(0,y.jsx)(`a`,{href:`/icon-512.png`,className:`font-medium text-primary underline-offset-4 hover:underline`,children:`High-res icon`}),` `,`— 512×512`]}),(0,y.jsx)(`li`,{children:(0,y.jsx)(`a`,{href:`/store/phone-today.png`,className:`font-medium text-primary underline-offset-4 hover:underline`,children:`Phone screenshot — Today`})}),(0,y.jsx)(`li`,{children:(0,y.jsx)(`a`,{href:`/store/phone-dates.png`,className:`font-medium text-primary underline-offset-4 hover:underline`,children:`Phone screenshot — Dates`})}),(0,y.jsx)(`li`,{children:(0,y.jsx)(`a`,{href:`/store/phone-ideas.png`,className:`font-medium text-primary underline-offset-4 hover:underline`,children:`Phone screenshot — Ideas`})}),(0,y.jsx)(`li`,{children:(0,y.jsx)(`a`,{href:`/store/phone-unlock.png`,className:`font-medium text-primary underline-offset-4 hover:underline`,children:`Phone screenshot — Unlock`})}),(0,y.jsx)(`li`,{children:(0,y.jsx)(`a`,{href:`/manifest.webmanifest`,className:`font-medium text-primary underline-offset-4 hover:underline`,children:`Web app manifest`})})]}),(0,y.jsxs)(`p`,{children:[(0,y.jsx)(o,{to:`/privacy`,className:`font-medium text-primary underline-offset-4 hover:underline`,children:`Privacy`}),` · `,(0,y.jsx)(o,{to:`/support`,className:`font-medium text-primary underline-offset-4 hover:underline`,children:`Support`})]})]})}export{M as component};
