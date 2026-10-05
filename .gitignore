@@ -3,3 +3,37 @@ node_modules/
 .github_repo
 .env
 .env.*
+
+# Signing secrets — never commit. Upload key lives only at /workspace/secrets/
+*.jks
+*.keystore
+keystore.properties
+**/keystore.properties
+android/keystore.properties
+android-twa/upload-keystore.jks
+android/upload-keystore.jks
+/secrets/
+*.passwords.txt
+
+# Android / Bubblewrap build outputs
+android-twa/.gradle/
+android-twa/app/build/
+android-twa/build/
+**/.gradle/
+**/app/build/
+*.aab
+*.apk
+*.idsig
+android-twa/app-release-bundle.aab
+android-twa/app-release-signed.apk
+android-twa/app-release-signed.apk.idsig
+android-twa/app-release-unsigned-aligned.apk
+artifacts/play/*.aab
+artifacts/play/*.apk
+public/store/*.aab
+.vercel/output/
+
+# Local IDE / OS
+.DS_Store
+*.iml
+.idea/

@@ -10,9 +10,9 @@ export const APP_ORIGIN = "https://goodpartner.grok.me";
 export const APP_ANDROID_PACKAGE = "me.grok.goodpartner";
 /** Play Console in-app product ID. One-time managed, $19, not a subscription. */
 export const APP_PLAY_SKU = "lifetime_unlock";
-/** Upload-key SHA-256 already published in Digital Asset Links. */
+/** Upload-key SHA-256 for the replacement key. Live assetlinks still has the old fingerprint until the site is redeployed. */
 export const APP_UPLOAD_SHA256 =
-  "3F:0F:27:AC:24:A6:63:EF:F9:B8:F7:08:C7:60:E0:C7:26:1A:5A:0C:B7:24:9D:57:D1:14:C0:91:6D:0B:94:D0";
+  "CC:00:3F:06:DE:7B:EE:22:5D:07:2F:91:CB:3F:06:BC:09:AB:0A:F0:96:7F:F5:69:1D:47:84:18:A1:E1:E2:02";
 export const APP_SHORT_DESCRIPTION =
   "Never forget the little things. Dates, gifts, and quality time — on this phone.";
 /** Public Stripe Payment Link. Test-mode until a live link replaces it. */
